@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    width: 100%;
+    height: 100vh;
+}
+
+.alt-green-text {
+    color: #97BC62;
+}
+
+.hero-ctr {
+    padding-bottom: 250px;
+    background: linear-gradient(90deg, rgba(44,95,45,0.75) 0%, rgba(12,17,31,0.90) 100%), url(./assets/golfer.jpg);
+    background-position: center;
+	background-size: cover;
+    color: white;
+}
+
+.hero-ctr>nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+.hero-content {
+    padding: 0px 15px;
+}
+
+.hero-title {
+    font-size: 42px;
+    padding: 5px 0;
+}
+
+.hero-content>p {
+    padding: 25px 0;
+    font-weight: 100;
+}
+
+.btn {
+    border: none;
+    border-radius: 20px;
+    background-color: #97BC62;
+    color: white;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+}
+
+.btn-contact {
+    width: 110px;
+    height: 35px;
+}
+
+.btn-schedule {
+    width: 180px;
+    height: 50px;
+    margin-top: 25px;
+}
+
+.btn-schedule>img {
+    margin-left: 5px;
+    width: 20px;
+}
