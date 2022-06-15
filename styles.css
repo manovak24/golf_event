@@ -9,6 +9,15 @@ body, html {
     height: 100vh;
 }
 
+a {
+    text-decoration: none;
+}
+
+button:hover {
+    cursor: pointer;
+    opacity: .8;
+}
+
 .alt-green-text {
     color: #97BC62;
 }
