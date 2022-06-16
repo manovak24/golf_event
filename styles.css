@@ -40,6 +40,15 @@ header>nav {
     padding: 15px;
 }
 
+footer {
+    margin-top: 50px;
+    padding: 25px 10px;
+    background-color: #2C5F2D;
+    color: white;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
 .alt-green-text {
     color: #97BC62;
 }
@@ -152,8 +161,15 @@ header>nav {
     position: relative;
     margin-top: 50px;
     padding-top: 25px;
-    padding-bottom: 50px;
+    
     background-color: #2C5F2D;
+}
+
+.schedule-ctr>div {
+    width: 80%;
+    margin: 50px auto 0px;
+    padding: 10px;
+    background-color: #fff;
 }
 
 .box {
@@ -185,8 +201,7 @@ header>nav {
     background: #2C5F2D;
 }
 
-.schedule-ctr>div {
-    width: 80%;
-    margin: 50px auto;
-    background-color: #fff;
+.footer-content {
+    display: flex;
+    justify-content: space-between;
 }
