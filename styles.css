@@ -16,6 +16,11 @@ h3 {
     text-align: center;
 }
 
+h4 {
+    font-size: 32px;
+    padding-bottom: 5px;
+}
+
 a {
     text-decoration: none;
 }
@@ -41,12 +46,32 @@ header>nav {
 }
 
 footer {
+    height: 250px;
     margin-top: 50px;
-    padding: 25px 10px;
+    padding: 25px 15px;
     background-color: #2C5F2D;
     color: white;
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
+}
+
+ul {
+    list-style-type: none;
+    text-align: center;
+    padding: 15px;
+}
+
+li {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+li:not(:first-child) {
+    padding-top: 10px;
+}
+
+.bold {
+    font-weight: 800;
 }
 
 .alt-green-text {
@@ -161,15 +186,15 @@ footer {
     position: relative;
     margin-top: 50px;
     padding-top: 25px;
-    
     background-color: #2C5F2D;
 }
 
 .schedule-ctr>div {
     width: 80%;
     margin: 50px auto 0px;
-    padding: 10px;
+    padding: 20px 10px 15px;
     background-color: #fff;
+    border-radius: 25px;
 }
 
 .box {
@@ -204,4 +229,29 @@ footer {
 .footer-content {
     display: flex;
     justify-content: space-between;
+    height: 145px;
+    padding-top: 20px;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.contact-info>p:not(:first-child) {
+    padding-top: 5px;
+    font-size: 14px;
+    font-weight: 100;
+}
+ 
+.social-icons {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.social-icons>img {
+    width: 35px;
+    height: 35px;
 }
